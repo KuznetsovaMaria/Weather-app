@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { watchFile } = require('fs');
 
 module.exports = {
-    entry: './src/index.js',
+    entry: './src/JS/index.js',
     output: {
         filename: 'main.js',
         path: path.resolve(__dirname, 'dist'),

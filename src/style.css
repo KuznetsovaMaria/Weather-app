@@ -1,8 +1,8 @@
 * {
-    margin: 12px;
     box-sizing: border-box;
 }
 
 body {
     background-color: rgb(212, 224, 236);
+    margin: 12px;
 }
