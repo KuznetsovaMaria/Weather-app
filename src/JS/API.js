@@ -7,10 +7,8 @@ export async function getWeather(location) {
     const weatherData = await response.json();
     let weatherObj = {
         location: weatherData.location.name,
-        temperatureC: weatherData.current.temp_c + ' C',
+        temperatureC: weatherData.current.temp_c + '°C',
         description: weatherData.current.condition.text,
     }
-    console.table(weatherObj);
-
-    console.log(weatherData);
+    return weatherObj;
 }
