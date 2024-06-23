@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "serve": "webpack serve"
+    "serve": "webpack serve",
+    "updLive": "git subtree push --prefix dist origin gh-pages"
   },
   "author": "Kuznetsova Mariia",
   "license": "ISC",
