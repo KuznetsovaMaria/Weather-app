@@ -1,12 +1,23 @@
 import '/src/style.css';
 import { getWeather } from './API';
+import Logo from '/assets/icons8-cloud-96.png';
 
+const header = document.querySelector('header');
 const forecastContainer = document.querySelector('#forecast');
 const btnUpdateForecast = forecastContainer.querySelector('button');
 let locationPara = forecastContainer.querySelector('#location');
 let temperatureCelsPara = forecastContainer.querySelector('#temperatureCelc');
 let descriptionPara = forecastContainer.querySelector('#description');
 let location;
+
+let logo = document.createElement('img');
+logo.id = 'logo';
+logo.src = Logo;
+header.appendChild(logo);
+
+let h1 = document.createElement('h1');
+h1.textContent = 'Weather';
+header.appendChild(h1);
 
 btnUpdateForecast.addEventListener('click', async () => {
     location = forecastContainer.querySelector('input').value;
