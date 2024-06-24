@@ -469,7 +469,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   getWeather: () => (/* binding */ getWeather)
 /* harmony export */ });
-const url1Part = 'http://api.weatherapi.com/v1/current.json?key=1264af36d4f441d0b7e114002242006&q=';
+const url1Part = 'https://api.weatherapi.com/v1/current.json?key=1264af36d4f441d0b7e114002242006&q=';
 const url2Part = '&aqi=no'
 
 async function getWeather(location) {
