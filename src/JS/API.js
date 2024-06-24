@@ -1,4 +1,4 @@
-const url1Part = 'http://api.weatherapi.com/v1/current.json?key=1264af36d4f441d0b7e114002242006&q=';
+const url1Part = 'https://api.weatherapi.com/v1/current.json?key=1264af36d4f441d0b7e114002242006&q=';
 const url2Part = '&aqi=no'
 
 export async function getWeather(location) {
